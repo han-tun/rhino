@@ -71,6 +71,7 @@ reference:
 - title: Other tools
   contents:
   - diagnostics
+  - say_hello
   - test_e2e
 
 - title: Data

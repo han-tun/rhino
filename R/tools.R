@@ -275,3 +275,16 @@ test_e2e <- function(interactive = FALSE) {
 
   yarn(command)
 }
+
+#' Say hello
+#'
+#' @description
+#' `r lifecycle::badge("experimental")`
+#'
+#' Says hello.
+#'
+#' @details
+#' Use this function to say hello.
+#'
+#' @export
+say_hello <- function() message("Hello!")
